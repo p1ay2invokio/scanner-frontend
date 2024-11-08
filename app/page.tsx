@@ -5,8 +5,7 @@ import { useEffect, useState, useRef } from "react";
 import axios, { all } from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-const ip = '192.168.1.26:3001'
+import { ip } from '../config'
 
 export default function Home() {
 
